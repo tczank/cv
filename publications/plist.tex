@@ -1,0 +1,23 @@
+\documentclass[a4paper, 12pt]{article3}
+\usepackage{color}
+
+  \pagestyle{empty}%ページ数を印字しない。
+	\renewcommand{\baselinestretch}{1.2}
+
+\usepackage[dvipdfmx,setpagesize=false]{hyperref}
+
+\begin{document}
+\noindent
+{\bf Publications} 
+
+\bigskip
+
+\nocite{*} % データベースの中身を全部表示する
+%\setcounter{biburllcpenalty}{7000}
+%\setcounter{biburlucpenalty}{8000}
+%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{naturemag}
+\bibliography{tczank_paper}%文献データベース
+%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
